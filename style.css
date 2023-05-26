@@ -2,32 +2,33 @@
 
 
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-html, body {
+index.html html,
+body {
     min-height: 100vh;
     background-color: darkgray;
-    font-family: var(--fonte1);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background-color: black;
+    background-color: rgb(119, 111, 1);
     color: white;
     text-align: center;
     font-size: 2vw;
-    
+    font-variant: small-caps;
 }
 
-header > h1{
+header>h1 {
     padding-top: 50px;
     font-variant: small-caps;
- 
+
 }
 
-header > p {
+header>p {
     padding-bottom: 50px;
 }
 
@@ -35,36 +36,67 @@ a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+
 }
 
-header a:hover , footer a:hover{
-    color: aquamarine;
+header a:hover,
+footer a:hover {
+    color: rgb(5, 5, 5);
 }
 
-section{
+section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3vw;
 }
 
-section.normal{
+section.normal {
     background-color: rgb(255, 255, 255);
     color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
 }
-section.imagen{
-background-color: rgb(49, 49, 49);
-color: rgb(255, 255, 255);
+
+section.imagen {
+
+    background-color: rgb(49, 49, 49);
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
+
 }
-section.imagen > p{
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.836);
-    
+
+section.imagen>p {
+    width: 100%;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.384);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.712);
+}
+
+section#img1 {
+    padding: 5px;
+    background-image: url(imagens/hotel-3728754_1280.jpg);
+    background-position: right center;
+}
+
+section#img2 {
+    background-image: url(imagens/pano-de-cozinha-na-mesa-de-madeira.jpg);
+    background-position: right center;
+}
+
+section#img3 {
+    background-image: url(imagens/pasta-1181189_1280.jpg);
+    background-position: right center;
 }
 
 
 
-footer{
+
+footer {
     background-color: black;
     color: white;
     padding: 10px;
