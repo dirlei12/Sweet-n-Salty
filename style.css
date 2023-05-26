@@ -1,3 +1,131 @@
-body{
-    background-image: url(imagens/wood-table-bronw.jpg);
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url('imagens/pasta-1181189_1280.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border: 3px solid blue;
+    
+
+}
+
+header {
+    background-image: linear-gradient(to bottom, yellow, orange);
+    width: 100%;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.445);
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-attachment: fixed;
+   
+}
+
+header>nav {
+    
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header nav a {
+    padding: 2px;
+    font-weight: bold;
+    font-size: x-small;
+    color: black;
+    text-decoration: none;
+    max-width: 100%;
+    display: flex;
+    
+}
+
+header nav a img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+header>nav>ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+header>nav>ul>a {
+    margin: 1rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    
+}
+
+header>nav>ul>a:hover {
+    color: #858277;
+
+}
+
+main {
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.logo div{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: normal;
+}
+
+.logo div img{
+
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    
+    height: 100px;
+    width:100px;
+    position: absolute;
+    transform: translate(50%,50%);
+}
+
+.logo div h2{
+    border: 1px solid black;
+    text-align: center;
+    font-size: small;
+    font-weight: normal; 
+    position: absolute;
+    transform: translate(50%,50%); 
+
+}
+
+.sobre {
+    background-color: rgba(255, 255, 255, 0.411);
+    margin: auto;
+    padding: 4px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+}
+
+footer {
+    background-image: linear-gradient(to top, yellow, orange);
+    font-weight: bold;
+    position: sticky;
+
+    width: 100%;
+
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.438);
+    padding: 2px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
 }
