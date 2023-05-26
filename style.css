@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -8,17 +10,21 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
+    font-size: 2vw;
+    
 }
 
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+ 
 }
 
 header > p {
@@ -39,6 +45,7 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
+    font-size: 3vw;
 }
 
 section.normal{
@@ -50,8 +57,9 @@ background-color: rgb(49, 49, 49);
 color: rgb(255, 255, 255);
 }
 section.imagen > p{
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.836);
-    width: 400px;
+    
 }
 
 
